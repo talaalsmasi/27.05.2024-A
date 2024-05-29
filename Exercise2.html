@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ec8c0ecbd.js" crossorigin="anonymous"></script>
+    <title>Exercise2</title>
+    <style>
+        *{font-family: Arial, Helvetica, sans-serif;}
+      .p{
+        display: flex;
+        flex-direction: row;
+        background-color: #1B203C;
+        gap: 3vh;
+      }
+      .x{
+        width: 22%;
+        display: flex;
+        flex-direction: column;
+        height: 97vh;
+        background-color: #272C4A;
+        
+      }
+      .x div{
+            color: #7F8281;
+            font-size: 22px;
+            height: 6%;
+            padding-left:15%;
+            padding-top:14px; 
+        }
+        .y{
+            display: flex;
+            flex-direction: column;
+            width: 78%;
+            height: 97vh;
+            gap: 7vh;
+        }
+        .y1{
+            height:10%;
+            color: white;
+            font-size: 30px;
+            padding-top: 3vh;
+
+
+        }
+        .y2{
+            height: 20%;
+            display: flex;
+            gap: 3vh;
+        }
+        .y2 div {
+            background-color: #272C4A;
+            height: 100%;
+            width: 23%;
+        }
+        .y3{
+            display: flex;
+            height: 40%;
+            gap: 3vh;
+            width:98%;
+            
+        }
+        .a1{
+            width: 70%;
+            height: 100%;
+            background-color: #272C4A;
+            
+        }
+        .a2{
+            width: 30%;
+            height: 100%;
+            background-color: #272C4A;
+        }
+        table{
+            width: 100%;
+            color: white;
+            height: 100%;
+            padding-left: 3vh;
+        }
+        td{
+            border-bottom: solid #404770 0.5px
+        }
+        th{
+            text-align: left; border-bottom:solid #404770 0.5px ;
+        }
+        .b
+        {
+            display: flex;
+        }
+        .p1{
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            margin: 5vh 5vh 1vh 3vh
+        }
+        .p2{
+            color: #7F8281;
+            margin-left: 3vh;
+        }
+      
+
+      
+    </style>
+</head>
+<body>
+    <div class="p">
+        <div class="x">
+            <div style="color: white;font-weight: bold;height:8% ;padding-top:4vh;"><span style="color:#E8404A ;">M</span>-SoftTeach</div>
+            <div style="background-color: #1B203C;color: white;"><i class="fa-solid fa-gauge-high" style="color: #ffffff;"></i>  Dashboard</div>
+            <div><i class="fa-solid fa-people-group" style="color: #7F827E;"></i>  Customers</div>
+            <div><i class="fa-sharp fa-solid fa-list" style="color: #7F827E;"></i>  Projects</div>
+            <div><i class="fa-sharp fa-solid fa-bag-shopping" style="color: #7F827E;"></i>  Orders</div>
+            <div><i class="fa-sharp fa-regular fa-circle" style="color: #7F827E;"></i> Inventory</div>
+            <div><i class="fa-solid fa-user" style="color: #7F827E;"></i>  Accounts</div>
+            <div><i class="fa-sharp fa-solid fa-bars-progress" style="color: #7F827E;"></i>  Tasks</div>
+        </div>
+        <div class="y">
+            <div class="y1">
+                <span><i class="fa-sharp fa-solid fa-bars" style="color: #ffffff;"></i></i>   Dashboard </span>
+                <div style="float: right;width: 20%">
+                    <img src="https://th.bing.com/th/id/OIP.ke370CWiEWxzmUkDpPv5OAHaHX?w=193&h=192&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" width="50vh" height="50vh" style="border-radius: 50%;float: left;margin-right: 2vh;">
+                    <div style="font-size:16px ;">Manoj Adhikari</div><div style="font-size: 14px;font-weight: normal;color: #7F827E;">UI/UX DESIGNER</div>
+                </div>
+            </div>
+            <div class="y2">
+                <div class="b">
+                    <div class="l" style="width: 70%;color: white;">
+                        <p class="p1">67</p>
+                        <p class="p2">Customers</p>
+                    </div>
+                    <div style="width: 30%;"><i class="fa-solid fa-people-group" style="color: #7F827E;font-size: 50px;padding-top:50%;"></i></div>
+                </div>
+                <div class="b">
+                    <div style="width: 70%;color: white;">
+                        <p class="p1">88</p>
+                        <p class="p2">Projects</p>
+                    </div>
+                    <div style="width: 30%;" ><i class="fa-sharp fa-solid fa-list" style="color: #7F827E;font-size: 50px;padding-top:50%;"></i></div>
+                </div>
+                <div class="b">
+                    <div style="width: 70%;color: white;">
+                        <p class="p1">99</p>
+                        <p class="p2">Orders</p>
+                    </div>
+                    <div style="width: 30%;"><i class="fa-sharp fa-solid fa-bag-shopping" style="color: #7F827E;font-size: 50px;padding-top:50%;"></i></div>
+                </div>
+                <div class="b">
+                    <div style="width: 70%;color: white;">
+                        <p class="p1">78</p>
+                        <p class="p2">Tasks</p>
+                    </div>
+                    <div style="width: 30%;"><i class="fa-sharp fa-solid fa-bars-progress" style="color: #7F827E;font-size: 50px;padding-top:50%;"></i></div>
+                </div>
+            </div>
+            <div class="y3">
+                <div class="a1">
+                    <table>
+                        <tr>
+                            <th colspan="3" style="color: #E8404A;border-style: none;">Top Selling Projects <button style="background: white;color: #E8404A;float: right;margin-right: 3vh;">Sell All</button> </th>
+                        </tr>
+                        <tr>
+                            <th>Company</th>
+                            <th>Contact</th>
+                            <th>Country</th>
+                        </tr>
+                        <tr>
+                            <td>Alfreds Futterkiste</td>
+                            <td>Maria Anders</td>
+                            <td>Germany</td>
+                        </tr>
+                        <tr>
+                            <td>Centro comercial Moctezuma</td>
+                            <td>Francisco Chang</td>
+                            <td>Mexico</td>
+                        </tr>
+                        <tr>
+                            <td>Emst Handel</td>
+                            <td>Ronaldo Mendel</td>
+                            <td>Austria</td>
+                        </tr>
+                        <tr>
+                            <td>Island Trading</td>
+                            <td>Helen Bennett</td>
+                            <td>UK</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="a2">
+                    <p style="color: #E8404A;padding-left: 3vh;">Total Sale <button style="background: white;color: #E8404A;float: right;margin-right: 3vh;">Sell All</button></p>
+                    <img src="IMG_8464.jpg" alt="" width="180vh" height="180vh" style="padding-left:23%;padding-top: 5%;">
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>
